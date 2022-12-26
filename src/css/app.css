@@ -1,0 +1,72 @@
+@media (min-width: 0px) {
+  h3 { font-size: 1rem; }
+}
+
+@media (min-width: 400px) {
+  h3 { font-size: calc(1rem + 1vw); }
+}
+
+@media (min-width: 1001px){
+  h3 { font-size: 1.75rem; }
+}
+.custom-caption{
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, .8);
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.roller{
+  height: 4.125rem;
+  line-height: 4rem;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #1D3557;
+}
+
+.roller #rolltext {
+  position: absolute;
+  top: 0;
+  animation: slide 3s infinite;
+}
+
+@keyframes slide {
+  0%{
+    top:0;
+  }
+  25%{
+    top: -4rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+  h3{
+  text-align:center;
+  text-transform: uppercase;
+  color: #F1FAEE;
+  font-size: 2.125rem;
+}
+
+  .roller{
+  height: 2.6rem;
+  line-height: 2.125rem;
+  }
+}
+.nunito{
+  font-family: "Nunito", Sans-serif;
+  letter-spacing: 6.8px;
+}
+.fade-in-text{
+  animation: fadeIn 3s alternate infinite;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
