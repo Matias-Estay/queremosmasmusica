@@ -3,7 +3,7 @@
     <q-img src="/icons/queremosmasmusica-academia-logo.png" style="width:200px"></q-img>
   </div>
   <div class="row justify-center">
-    <h3>Nuestra Academia de Música con modalidad online y presencial</h3>
+    <h3>Nuestra Academia de Música cuenta con modalidad online y presencial</h3>
   </div>
   <q-separator/>
 </template>

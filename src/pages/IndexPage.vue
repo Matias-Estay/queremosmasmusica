@@ -19,8 +19,7 @@
     </q-tab-panel>
 
     <q-tab-panel v-model="tab" name="Home Estudio">
-      <div class="text-h6">Movies</div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <EstudioTab></EstudioTab>
     </q-tab-panel>
     <q-tab-panel v-model="tab" name="Contacto">
       <div class="text-h6">Movies</div>
@@ -34,11 +33,13 @@
 import { defineComponent, ref } from 'vue'
 import InicioTab from '../components/InicioTab.vue'
 import AcademiaTab from '../components/AcademiaTab.vue'
+import EstudioTab from '../components/EstudioTab.vue'
 export default defineComponent({
   name: 'IndexPage',
   components: {
     InicioTab,
-    AcademiaTab
+    AcademiaTab,
+    EstudioTab
   },
   setup(){
     const tab = ref('Inicio')
