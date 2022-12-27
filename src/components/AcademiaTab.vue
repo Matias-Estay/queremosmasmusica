@@ -3,6 +3,17 @@
     <q-img src="/icons/queremosmasmusica-academia-logo.png" style="width:200px"></q-img>
   </div>
   <div class="row justify-center">
+    <q-btn class="q-mr-xs" round push  :href="'https://www.facebook.com/Academiaqm?_rdc=1&_rdr'">
+      <q-icon name="bi-facebook"  color="blue" size="lg"/>
+    </q-btn>
+    <q-btn class="q-mr-xs" round push  :href="'https://www.youtube.com/channel/UC5HSowoiIvbq6xk1qgSwHVg/videos'">
+      <q-icon name="bi-youtube" color="red" size="lg"/>
+    </q-btn><q-btn round push  :href="'https://www.instagram.com/academia_qm/'">
+      <q-icon class="insta" name="bi-instagram" color="blue" size="lg"/>
+    </q-btn>
+  </div>
+
+  <div class="row justify-center">
     <h3>Nuestra Academia de Música cuenta con modalidad online y presencial</h3>
   </div>
   <div class="row justify-center">

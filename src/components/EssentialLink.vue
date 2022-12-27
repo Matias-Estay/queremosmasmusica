@@ -9,7 +9,7 @@
       v-if="icon"
       avatar
     >
-      <q-icon :name="icon" />
+      <q-icon :name="icon" :color="color" :class="classes"/>
     </q-item-section>
 
     <q-item-section>
@@ -41,6 +41,16 @@ export default defineComponent({
     },
 
     icon: {
+      type: String,
+      default: ''
+    },
+
+    color:{
+      type: String,
+      default: ''
+    },
+
+    classes:{
       type: String,
       default: ''
     }

@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+    <q-header elevated reveal>
       <q-toolbar class="bg-black text-white">
         <q-btn
           flat
@@ -28,7 +28,7 @@
         <q-item-label
           header
         >
-          Essential Links
+
         </q-item-label>
 
         <EssentialLink
@@ -68,46 +68,52 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    title: 'Academia YouTube',
+    caption: '',
+    icon: 'bi-youtube',
+    link: 'https://quasar.dev',
+    color: 'red',
+    classes: ''
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    title: 'Academia Instagram',
+    caption: '',
+    icon: 'bi-instagram',
+    link: 'https://github.com/quasarframework',
+    color: '',
+    classes: 'insta'
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
+    title: 'Academia Facebook',
+    caption: '',
+    icon: 'bi-facebook',
+    link: 'https://chat.quasar.dev',
+    color: 'blue',
+    classes: ''
   },
   {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    title: 'Home Estudio Youtube',
+    caption: '',
+    icon: 'bi-youtube',
+    link: 'https://forum.quasar.dev',
+    color: 'red',
+    classes: ''
   },
   {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    title: 'Home Estudio Instagram',
+    caption: '',
+    icon: 'bi-instagram',
+    link: 'https://twitter.quasar.dev',
+    color: '',
+    classes: 'insta'
   },
   {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
+    title: 'Home Estudio Facebook',
+    caption: '',
+    icon: 'bi-facebook',
+    link: 'https://facebook.quasar.dev',
+    color: 'blue',
+    classes: ''
   }
 ]
 

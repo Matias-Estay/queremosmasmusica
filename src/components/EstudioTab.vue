@@ -3,6 +3,16 @@
     <q-img src="/icons/queremosmasmusica-home-logo.png" style="width:200px"></q-img>
   </div>
   <div class="row justify-center">
+    <q-btn class="q-mr-xs" round push  :href="'https://www.facebook.com/HomeEstudioQM?_rdc=1&_rdr'">
+      <q-icon name="bi-facebook"  color="blue" size="lg"/>
+    </q-btn>
+    <q-btn class="q-mr-xs" round push  :href="'https://www.youtube.com/channel/UCxmQlYGIjctreNKN4wwJSAQ'">
+      <q-icon name="bi-youtube" color="red" size="lg"/>
+    </q-btn><q-btn round push  :href="'https://www.instagram.com/homeestudio_qm/'">
+      <q-icon class="insta" name="bi-instagram" color="blue" size="lg"/>
+    </q-btn>
+  </div>
+  <div class="row justify-center">
     <h3 class="text-center">¿Tienes una canción<span style="color:#d6634f">&nbsp;inconclusa</span>? Nosotros podemos ayudarte!</h3>
   </div>
   <div class="row justify-center">
