@@ -47,7 +47,7 @@
       "Queremos más música"
     </h3>
   </div>
-  <q-separator/>
+  <div class="separator"/>
 </template>
 <script>
 import { defineComponent, ref } from 'vue'

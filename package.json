@@ -12,9 +12,11 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
+    "axios": "^1.2.1",
     "bootstrap-icons": "^1.10.3",
     "quasar": "^2.6.0",
     "vue": "^3.0.0",
+    "vue-recaptcha": "^2.0.3",
     "vue-router": "^4.0.0"
   },
   "devDependencies": {

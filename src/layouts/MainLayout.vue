@@ -42,7 +42,15 @@
     <q-page-container style="padding-top:50px !important;">
       <router-view />
     </q-page-container>
-
+    <q-page-sticky position="top-right" :offset="[18, 55]">
+      <q-btn
+        :href="'https://api.whatsapp.com/send/?phone=56995987737&text=Hola%2Cnecesito+más+información%21&type=phone_number&app_absent=0'"
+        style="background-color:#25d366;color:white;width: 50px;"
+        size="20px"
+        round
+        icon="bi-whatsapp"
+      />
+    </q-page-sticky>
     <q-footer class="bg-grey-6 text-white absolute-bottom">
       <q-toolbar>
         <q-toolbar-title>
