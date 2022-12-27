@@ -81,9 +81,7 @@
       <q-card class="fit">
         <q-splitter
           v-model="splitterModel"
-          :unit="'%'"
-          before-class="width:40%"
-          :limits="[40, Infinity]"
+          before-class="h-40"
         >
           <template v-slot:before>
             <q-tabs
@@ -100,6 +98,7 @@
           <template v-slot:after>
             <q-tab-panels
               v-model="nivel_tab"
+              style="width:100%"
               animated
               vertical
               transition-prev="jump-up"
@@ -224,7 +223,7 @@
       <q-card flat bordered class="my-card">
         <q-card-section>
           <div class="row justify-center">
-            <q-avatar icon="home_work"  style="color:#d6634f;font-size:100px"/>
+            <q-avatar icon="location_on"  style="color:#d6634f;font-size:100px"/>
           </div>
           <div class="row" style="background-color:#d6634f; min-height: 50px;">
             <div class="col-12 text-center">
@@ -302,7 +301,7 @@
       <q-card flat bordered class="my-card">
         <q-card-section>
           <div class="row justify-center">
-            <q-avatar icon="home_work"  style="color:#d6634f;font-size:100px"/>
+            <q-avatar icon="location_on"  style="color:#d6634f;font-size:100px"/>
           </div>
           <div class="row" style="background-color:#d6634f; min-height: 50px;">
             <div class="col-12 text-center">

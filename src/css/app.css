@@ -14,6 +14,9 @@
   color: white;
   background-color: rgba(0, 0, 0, .8);
 }
+.h-40{
+  width: 40% !important;
+}
 .responsive {
   width: 100%;
   height: auto;
@@ -25,6 +28,7 @@
   h3{
     text-align:center;
     text-transform: uppercase;
+    font-weight: bold;
     font-size: 1rem;
   }
   h6{
