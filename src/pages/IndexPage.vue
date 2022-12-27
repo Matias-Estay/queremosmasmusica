@@ -10,18 +10,18 @@
     <q-tab name="Contacto" icon="mail" label="Contacto" />
   </q-tabs>
   <q-tab-panels v-model="tab" animated>
-    <q-tab-panel v-model="tab" name="Inicio">
+    <q-tab-panel name="Inicio">
       <InicioTab></InicioTab>
     </q-tab-panel>
 
-    <q-tab-panel v-model="tab" name="Academia">
+    <q-tab-panel name="Academia">
       <AcademiaTab></AcademiaTab>
     </q-tab-panel>
 
-    <q-tab-panel v-model="tab" name="Home Estudio">
+    <q-tab-panel name="Home Estudio">
       <EstudioTab></EstudioTab>
     </q-tab-panel>
-    <q-tab-panel v-model="tab" name="Contacto">
+    <q-tab-panel name="Contacto">
       <div class="text-h6">Movies</div>
       Etesech
     </q-tab-panel>

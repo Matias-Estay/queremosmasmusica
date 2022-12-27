@@ -14,7 +14,7 @@
         <q-img class="rounded-borders col-xl-3 col-xs-12 full-height" src="/images/slide1-3.jpg" />
       </div>
       <div class="absolute-bottom custom-caption">
-        <div class="text-h2">Home Estudio Santiago</div>
+        <div class="text-h3">Home Estudio Santiago</div>
         <div class="text-subtitle1">Trabajos de Producción Musical</div>
       </div>
     </q-carousel-slide>
@@ -26,13 +26,13 @@
         <q-img class="rounded-borders col-xl-3 col-xs-12 full-height" src="/images/slide2-3.jpg" />
       </div>
       <div class="absolute-bottom custom-caption">
-        <div class="text-h2">Academia QM</div>
+        <div class="text-h3">Academia QM</div>
         <div class="text-subtitle1">Área enfocada en la capacitación de nuevos músicos con clases particulares de instrumentos musicales</div>
       </div>
     </q-carousel-slide>
     <q-carousel-slide name="third" img-src="https://cdn.quasar.dev/img/parallax2.jpg">
       <div class="absolute-bottom custom-caption">
-        <div class="text-h2">Third stop</div>
+        <div class="text-h3">Third stop</div>
         <div class="text-subtitle1">Famous Bridge</div>
       </div>
     </q-carousel-slide>
