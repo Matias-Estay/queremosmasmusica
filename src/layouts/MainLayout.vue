@@ -39,9 +39,18 @@
       </q-list>
     </q-drawer>
 
-    <q-page-container>
+    <q-page-container style="padding-top:50px !important;">
       <router-view />
     </q-page-container>
+
+    <q-footer class="bg-grey-6 text-white absolute-bottom">
+      <q-toolbar>
+        <q-toolbar-title>
+          <div class="text-center">Copyright © Queremos más música</div>
+        </q-toolbar-title>
+      </q-toolbar>
+    </q-footer>
+
   </q-layout>
 </template>
 

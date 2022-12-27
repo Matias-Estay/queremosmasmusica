@@ -168,6 +168,29 @@
     <h3 class="q-mb-none">Precios</h3>
   </div>
   <div class="separator"/>
+  <div class="row q-mt-lg justify-center">
+    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-12">
+      <q-list>
+        <q-item clickable v-ripple v-for="(item,index) in lista_precios" :key="index">
+          <q-item-section avatar style="width:90px">
+            <q-img :src="item.logo"/>
+          </q-item-section>
+          <q-item-section>
+            <div class="row">
+              <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                <q-item-label class="text-h6">{{ item.nombre }} </q-item-label>
+                <q-item-label class="text-h6" caption lines="1">{{ item.sub_texto }}</q-item-label>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-9">
+                <q-item-label class="text-h6" style="color:#d6634f">{{ item.precio }}</q-item-label>
+              </div>
+            </div>
+            <q-separator/>
+          </q-item-section>
+        </q-item>
+      </q-list>
+    </div>
+  </div>
   <div class="row justify-center">
     <h3 class="q-mb-none">Nuestro Soundcloud</h3>
   </div>
@@ -185,16 +208,35 @@
       <q-responsive :ratio="16/9" style="width: 1000px; max-width: 100%;">
         <q-img src="/images/home/evento.jpg"/>
       </q-responsive>
-
+  </div>
+  <div class="row justify-center q-mt-md">
+    <q-btn square color="red" :href="'https://www.youtube.com/watch?v=ysxXlOuVs6A'" icon="bi-youtube" size="lg">
+      &nbsp;Quiero saber más
+    </q-btn>
   </div>
 </template>
 <script>
-import { defineComponent } from 'vue'
+import { defineComponent, ref } from 'vue'
 
 export default defineComponent({
   name:'EstudioTab',
-  setup() {
 
+  setup() {
+    const lista_precios = ref([
+      {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Mezcla y Master', sub_texto:'Post Producción', precio:'$35.000'},
+      {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Mastering', sub_texto:'Post Producción', precio:'$15.000'},
+      {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Composición Musical Popular-Urbana', sub_texto:'Pre Producción (Instrumental - Beat)', precio:'$30.000 +'},
+      {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Arreglos de cuerdas/vientos', sub_texto:'Pre Producción (Con partitura)', precio:'$25.000'},
+      {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Beat personalizado', sub_texto:'Producción Pista', precio:'$55.000 +'},
+      {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Single', sub_texto:'Producción completa (el precio varía de lo que quieres)', precio:'$70.000 +'},
+      {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Jingle', sub_texto:'Producción total', precio:'$70.000 +'},
+      {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Grabación con interpretes C/U', sub_texto:'Producción', precio:'$70.000 +'},
+      {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Grabación de Voces', sub_texto:'Producción', precio:'$15.000 - $20.000'},
+      {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Creación de pistas cover/reversionadas', sub_texto:'Producción total', precio:'$55.000 +'},
+    ])
+    return{
+      lista_precios
+    }
   },
 })
 </script>

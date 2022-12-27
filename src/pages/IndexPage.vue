@@ -21,9 +21,9 @@
     <q-tab-panel name="Home Estudio">
       <EstudioTab></EstudioTab>
     </q-tab-panel>
+
     <q-tab-panel name="Contacto">
-      <div class="text-h6">Movies</div>
-      Etesech
+      <ContactoTab></ContactoTab>
     </q-tab-panel>
   </q-tab-panels>
 
@@ -34,12 +34,14 @@ import { defineComponent, ref } from 'vue'
 import InicioTab from '../components/InicioTab.vue'
 import AcademiaTab from '../components/AcademiaTab.vue'
 import EstudioTab from '../components/EstudioTab.vue'
+import ContactoTab from '../components/ContactoTab.vue'
 export default defineComponent({
   name: 'IndexPage',
   components: {
     InicioTab,
     AcademiaTab,
-    EstudioTab
+    EstudioTab,
+    ContactoTab
   },
   setup(){
     const tab = ref('Inicio')
