@@ -8,16 +8,10 @@
     >
     <q-carousel-slide class="column" name="first">
       <div class="row fit no-wrap items-center q-col-gutter " style="overflow-y: hidden;">
-
-
           <q-img class="rounded-borders col-xl-3 col-lg-6 col-md-6 col-md-6 col-xs-12" src="/images/slide2.jpg" />
-
           <q-img class="rounded-borders col-xl-3 col-lg-6 col-md-6 col-md-6 col-xs-12" src="/images/slide2-1.jpg" />
-
           <q-img class="rounded-borders col-xl-3 col-lg-6 col-md-6 col-md-6 col-xs-12" src="/images/slide2-2.jpg" />
-
           <q-img class="rounded-borders col-xl-3 col-lg-6 col-md-6 col-md-6 col-xs-12" src="/images/slide2-3.jpg" />
-
       </div>
       <div class="absolute-bottom custom-caption">
         <div class="text-h3">Academia QM</div>
