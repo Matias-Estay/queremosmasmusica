@@ -240,8 +240,8 @@ export default defineComponent({
       {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Beat personalizado', sub_texto:'Producción Pista', precio:'$55.000 +'},
       {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Single', sub_texto:'Producción completa (el precio varía de lo que quieres)', precio:'$70.000 +'},
       {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Jingle', sub_texto:'Producción total', precio:'$70.000 +'},
-      {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Grabación con interpretes C/U', sub_texto:'Producción', precio:'$70.000 +'},
-      {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Grabación de Voces', sub_texto:'Producción', precio:'$15.000 - $20.000'},
+      {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Grabación con interpretes C/U', sub_texto:'Producción', precio:'$15.000 +'},
+      {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Grabación de Voces', sub_texto:'Producción', precio:'$15.000'},
       {logo:'/icons/queremosmasmusica-home-logo.png', nombre:'Creación de pistas cover/reversionadas', sub_texto:'Producción total', precio:'$55.000 +'},
     ])
     return{
