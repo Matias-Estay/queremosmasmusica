@@ -177,7 +177,7 @@
               $45.000
             </h6>
             <h6 class="q-mt-none q-mb-none text-positive">
-              &nbsp;&nbsp; $37.000
+              &nbsp;&nbsp; $38.000
             </h6>
             <h6 class="q-mt-none q-mb-none" style="font-weight: 250 !important">
               &nbsp; /4 clases
@@ -188,7 +188,7 @@
           <q-list bordered separator>
             <q-item v-ripple>
               <q-item-section>
-                <h6 class="text-center q-mt-none q-mb-none"><q-icon name="schedule" style="color:#d6634f"/>&nbsp;La duración de cada clases 60 minutos </h6>
+                <h6 class="text-center q-mt-none q-mb-none"><q-icon name="schedule" style="color:#d6634f"/>&nbsp;La duración de cada clase es de 60 minutos </h6>
               </q-item-section>
             </q-item>
             <q-item v-ripple>
@@ -252,10 +252,10 @@
         <q-card-section class="q-pt-none">
           <div class="row justify-center">
             <h6 class="text-lined q-mt-none q-mb-none">
-              $60.000
+              $65.000
             </h6>
             <h6 class="q-mt-none q-mb-none text-positive">
-              &nbsp;&nbsp; $50.000
+              &nbsp;&nbsp; $55.000
             </h6>
             <h6 class="q-mt-none q-mb-none" style="font-weight: 250 !important">
               &nbsp; /4 clases
@@ -266,7 +266,7 @@
           <q-list bordered separator>
             <q-item v-ripple>
               <q-item-section>
-                <h6 class="text-center q-mt-none q-mb-none"><q-icon name="schedule" style="color:#d6634f"/>&nbsp;La duración de cada clases 60 minutos </h6>
+                <h6 class="text-center q-mt-none q-mb-none"><q-icon name="schedule" style="color:#d6634f"/>&nbsp;La duración de cada clase es de 60 minutos </h6>
               </q-item-section>
             </q-item>
             <q-item v-ripple>
@@ -330,10 +330,10 @@
         <q-card-section class="q-pt-none">
           <div class="row justify-center">
             <h6 class="text-lined q-mt-none q-mb-none">
-              $90.000
+              $110.000
             </h6>
             <h6 class="q-mt-none q-mb-none text-positive">
-              &nbsp;&nbsp; $80.000
+              &nbsp;&nbsp; $100.000
             </h6>
             <h6 class="q-mt-none q-mb-none" style="font-weight: 250 !important">
               &nbsp; /8 clases
@@ -344,7 +344,7 @@
           <q-list bordered separator>
             <q-item v-ripple>
               <q-item-section>
-                <h6 class="text-center q-mt-none q-mb-none"><q-icon name="schedule" style="color:#d6634f"/>&nbsp;La duración de cada clases 60 minutos </h6>
+                <h6 class="text-center q-mt-none q-mb-none"><q-icon name="schedule" style="color:#d6634f"/>&nbsp;La duración de cada clase es de 60 minutos </h6>
               </q-item-section>
             </q-item>
             <q-item v-ripple>
