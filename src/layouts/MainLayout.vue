@@ -71,7 +71,7 @@ const linksList = [
     title: 'Academia YouTube',
     caption: '',
     icon: 'bi-youtube',
-    link: 'https://quasar.dev',
+    link: 'https://www.youtube.com/channel/UC5HSowoiIvbq6xk1qgSwHVg/videos',
     color: 'red',
     classes: ''
   },
@@ -79,7 +79,7 @@ const linksList = [
     title: 'Academia Instagram',
     caption: '',
     icon: 'bi-instagram',
-    link: 'https://github.com/quasarframework',
+    link: 'https://www.instagram.com/academia_qm/',
     color: '',
     classes: 'insta'
   },
@@ -87,7 +87,7 @@ const linksList = [
     title: 'Academia Facebook',
     caption: '',
     icon: 'bi-facebook',
-    link: 'https://chat.quasar.dev',
+    link: 'https://www.facebook.com/Academiaqm?_rdc=1&_rdr',
     color: 'blue',
     classes: ''
   },
@@ -95,7 +95,7 @@ const linksList = [
     title: 'Home Estudio Youtube',
     caption: '',
     icon: 'bi-youtube',
-    link: 'https://forum.quasar.dev',
+    link: 'https://www.youtube.com/channel/UCxmQlYGIjctreNKN4wwJSAQ',
     color: 'red',
     classes: ''
   },
@@ -103,7 +103,7 @@ const linksList = [
     title: 'Home Estudio Instagram',
     caption: '',
     icon: 'bi-instagram',
-    link: 'https://twitter.quasar.dev',
+    link: 'https://www.instagram.com/homeestudio_qm/',
     color: '',
     classes: 'insta'
   },
@@ -111,7 +111,7 @@ const linksList = [
     title: 'Home Estudio Facebook',
     caption: '',
     icon: 'bi-facebook',
-    link: 'https://facebook.quasar.dev',
+    link: 'https://www.facebook.com/HomeEstudioQM?_rdc=1&_rdr',
     color: 'blue',
     classes: ''
   }
