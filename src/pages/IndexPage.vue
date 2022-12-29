@@ -6,7 +6,7 @@
   >
     <q-tab name="Inicio" label="Inicio"/>
     <q-tab name="Academia" label="Academia" />
-    <q-tab name="Home Estudio" label="Home Estudio" />
+    <q-tab name="Home Estudio" label="Home Studio" />
     <q-tab name="Contacto" icon="mail" label="Contacto" />
   </q-tabs>
   <q-tab-panels v-model="tab" animated>

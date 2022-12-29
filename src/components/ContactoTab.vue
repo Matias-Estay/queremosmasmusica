@@ -11,22 +11,22 @@
       class="q-gutter-md"
     >
   <div class="row justify-center q-mt-lg">
-    <div class="col-xl-9">
+    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-xs-12">
       <q-input square filled v-model="nombre" label="Tu nombre" :rules="[ val => val!= '' || 'Este campo no puede estar vacío' ]" />
     </div>
   </div>
   <div class="row justify-center q-mt-lg">
-    <div class="col-xl-9">
+    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-xs-12">
       <q-input type="email" square filled v-model="email" label="Correo" :rules="[ val => val.includes('@') || 'Ingresa un correo válido con @' ]" />
     </div>
   </div>
   <div class="row justify-center q-mt-lg">
-    <div class="col-xl-9">
-      <q-input square filled v-model="asunto" label="asunto" :rules="[ val => val!= '' || 'Este campo no puede estar vacío' ]"/>
+    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-xs-12">
+      <q-input square filled v-model="asunto" label="Asunto" :rules="[ val => val!= '' || 'Este campo no puede estar vacío' ]"/>
     </div>
   </div>
   <div class="row justify-center q-mt-lg">
-    <div class="col-xl-9">
+    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-xs-12">
       <q-field ref="fieldRef" v-model="mensaje" label-slot borderless
       :rules="[ val => val!= '' || 'Este campo no puede estar vacío' ]" >
         <template #label>Mensaje</template>
@@ -37,11 +37,11 @@
       </q-field>
     </div>
   </div>
-  <div class="row justify-center q-mt-lg">
+  <!-- <div class="row justify-center q-mt-lg">
     <div class="col-xl-9">
       <vue-recaptcha @verify="verifyMethod" sitekey="6LfiYbAjAAAAAAf02Mxvf7lnyiOgYZ0R1XqP_Lq-"></vue-recaptcha>
     </div>
-  </div>
+  </div> -->
   <div class="row justify-center">
     <div class="col-xl-9">
       <q-btn type="submit" class="float-right q-mt-md text-white" style="background-color: #d6634f;">
@@ -64,7 +64,7 @@ import { useQuasar } from 'quasar'
 import axios from 'axios'
 export default defineComponent({
   components:{
-    VueRecaptcha
+    // VueRecaptcha
   },
   setup() {
     const $q = useQuasar();
@@ -72,7 +72,7 @@ export default defineComponent({
     const email = ref('');
     const asunto = ref('');
     const mensaje = ref('');
-    const captcha_valido = ref('');
+    const captcha_valido = ref('always true');
     const cargando = ref(false);
 
     const Enviar_Correo = ()=>{
