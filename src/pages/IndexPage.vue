@@ -1,15 +1,5 @@
 <template>
-  <q-tabs
-    v-model="tab"
-    inline-label
-    class="bg-grey-3"
-  >
-    <q-tab name="Inicio" label="Inicio"/>
-    <q-tab name="Academia" label="Academia" />
-    <q-tab name="Home Estudio" label="Home Studio" />
-    <q-tab name="Contacto" icon="mail" label="Contacto" />
-  </q-tabs>
-  <q-tab-panels v-model="tab" animated>
+  <q-tab-panels v-model="tab_mutation" animated>
     <q-tab-panel name="Inicio">
       <InicioTab></InicioTab>
     </q-tab-panel>
@@ -26,28 +16,30 @@
       <ContactoTab></ContactoTab>
     </q-tab-panel>
   </q-tab-panels>
-
 </template>
 
 <script>
-import { defineComponent, ref } from 'vue'
+import { computed, defineComponent} from 'vue'
 import InicioTab from '../components/InicioTab.vue'
 import AcademiaTab from '../components/AcademiaTab.vue'
 import EstudioTab from '../components/EstudioTab.vue'
 import ContactoTab from '../components/ContactoTab.vue'
 export default defineComponent({
   name: 'IndexPage',
+  props:{
+    tab:{}
+  },
   components: {
     InicioTab,
     AcademiaTab,
     EstudioTab,
     ContactoTab
   },
-  setup(){
-    const tab = ref('Inicio')
+  setup(props){
     return{
-      tab,
+      tab_mutation:computed(()=>{return props.tab})
     }
+
   }
 })
 </script>

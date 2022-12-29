@@ -18,8 +18,17 @@
         </q-toolbar-title>
 
       </q-toolbar>
+      <q-tabs
+        v-model="tab"
+        inline-label
+        class="bg-grey-4 text-black"
+      >
+        <q-tab name="Inicio" label="Inicio"/>
+        <q-tab name="Academia" label="Academia" />
+        <q-tab name="Home Estudio" label="Home Studio" />
+        <q-tab name="Contacto" icon="mail" label="Contacto" />
+      </q-tabs>
     </q-header>
-
     <q-drawer
       v-model="leftDrawerOpen"
       bordered
@@ -28,9 +37,7 @@
         <q-item-label
           header
         >
-
         </q-item-label>
-
         <EssentialLink
           v-for="link in essentialLinks"
           :key="link.title"
@@ -39,8 +46,8 @@
       </q-list>
     </q-drawer>
 
-    <q-page-container style="padding-top:50px !important;">
-      <router-view />
+    <q-page-container style="padding-top:100px !important;">
+      <router-view  v-bind:tab="tab"/>
     </q-page-container>
     <q-page-sticky position="top-right" :offset="[18, 55]">
       <q-btn
@@ -126,9 +133,10 @@ export default defineComponent({
 
   setup () {
     const leftDrawerOpen = ref(false)
-
+    const tab = ref('Inicio')
     return {
       essentialLinks: linksList,
+      tab,
       leftDrawerOpen,
       toggleLeftDrawer () {
         leftDrawerOpen.value = !leftDrawerOpen.value
