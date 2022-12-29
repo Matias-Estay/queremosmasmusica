@@ -6,24 +6,30 @@
       v-model="slide"
       height="400px"
     >
-    <q-carousel-slide class="column no-wrap" name="first">
-      <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
-        <q-img class="rounded-borders col-xl-3 col-xs-12 full-height" src="/images/slide2.jpg" />
-        <q-img class="rounded-borders col-xl-3 col-xs-12 full-height" src="/images/slide2-1.jpg" />
-        <q-img class="rounded-borders col-xl-3 col-xs-12 full-height" src="/images/slide2-2.jpg" />
-        <q-img class="rounded-borders col-xl-3 col-xs-12 full-height" src="/images/slide2-3.jpg" />
+    <q-carousel-slide class="column" name="first">
+      <div class="row fit no-wrap items-center q-col-gutter " style="overflow-y: hidden;">
+
+
+          <q-img class="rounded-borders col-xl-3 col-lg-6 col-md-6 col-md-6 col-xs-12" src="/images/slide2.jpg" />
+
+          <q-img class="rounded-borders col-xl-3 col-lg-6 col-md-6 col-md-6 col-xs-12" src="/images/slide2-1.jpg" />
+
+          <q-img class="rounded-borders col-xl-3 col-lg-6 col-md-6 col-md-6 col-xs-12" src="/images/slide2-2.jpg" />
+
+          <q-img class="rounded-borders col-xl-3 col-lg-6 col-md-6 col-md-6 col-xs-12" src="/images/slide2-3.jpg" />
+
       </div>
       <div class="absolute-bottom custom-caption">
         <div class="text-h3">Academia QM</div>
         <div class="text-subtitle1">Área enfocada en la capacitación de nuevos músicos con clases particulares de instrumentos musicales</div>
       </div>
     </q-carousel-slide>
-    <q-carousel-slide class="column no-wrap" name="second">
-      <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
-        <q-img class="rounded-borders col-xl-3 col-xs-12 full-height" src="/images/slide1.jpg" />
-        <q-img class="rounded-borders col-xl-3 col-xs-12 full-height" src="/images/slide1-1.jpg" />
-        <q-img class="rounded-borders col-xl-3 col-xs-12 full-height" src="/images/slide1-2.jpg" />
-        <q-img class="rounded-borders col-xl-3 col-xs-12 full-height" src="/images/slide1-3.jpg" />
+    <q-carousel-slide class="column" name="second">
+      <div class="row fit no-wrap items-center q-col-gutter" style="overflow-y: hidden;">
+        <q-img class="rounded-borders col-xl-3 col-lg-6 col-md-6 col-md-6 col-xs-12" src="/images/slide1.jpg" />
+        <q-img class="rounded-borders col-xl-3 col-lg-6 col-md-6 col-md-6 col-xs-12" src="/images/slide1-1.jpg" />
+        <q-img class="rounded-borders col-xl-3 col-lg-6 col-md-6 col-md-6 col-xs-12" src="/images/slide1-2.jpg" />
+        <q-img class="rounded-borders col-xl-3 col-lg-6 col-md-6 col-md-6 col-xs-12" src="/images/slide1-3.jpg" />
       </div>
       <div class="absolute-bottom custom-caption">
         <div class="text-h3">Home Studio Santiago</div>
@@ -43,7 +49,7 @@
   </div>
   <div class="separator"/>
   <div class="row justify-center q-mt-lg">
-    <div class="col-xl-10">
+    <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
       <q-card bordered class=" my-card shadow-4">
         <q-card-section>
           <div class="text-h6">Quienes Somos</div>
@@ -61,19 +67,19 @@
     </div>
   </div>
   <div class="row justify-center q-mt-lg q-gutter-md">
-    <div class="col-xl-10">
+    <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
       <div class="row justify-center">
-        <div class="col-xl-6">
-          <q-video
-            :ratio="16/9"
-            src="https://www.youtube.com/embed/tje_l-tAtwI"
-          />
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+          <div class="video-responsive">
+          <iframe src="https://www.youtube.com/embed/qs6U3HKopcU?ecver=1&amp;iv_load_policy=1&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red" width="560" height="315" allowtransparency="true" frameborder="0">
+          </iframe>
+          </div>
         </div>
-        <div class="col-xl-6">
-          <q-video
-            :ratio="16/9"
-            src="https://www.youtube.com/embed/qs6U3HKopcU"
-          />
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+          <div class="video-responsive">
+            <iframe src="https://www.youtube.com/embed/tje_l-tAtwI?ecver=1&amp;iv_load_policy=1&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red" allowtransparency="true" frameborder="0">
+            </iframe>
+          </div>
         </div>
       </div>
     </div>
